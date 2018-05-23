@@ -113,14 +113,6 @@ to the thumbnail microservice server endpoint::
         proxy_pass http://thumbnail_backend;
     }
 
-    location /webgateway/get_thumbnails/ {
-        proxy_pass http://thumbnail_backend;
-    }
-
-    location /webclient/get_thumbnails/ {
-        proxy_pass http://thumbnail_backend;
-    }
-
 
 Development Installation
 ========================
