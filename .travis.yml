@@ -5,7 +5,6 @@ services:
 script:
 - "./gradlew distTar"
 - cd docker && ./build.sh
-- ls -la
 - bash docker_push
 env:
   global:
